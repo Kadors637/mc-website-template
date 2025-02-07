@@ -1,4 +1,4 @@
-import Navbar from "@/components/ui/navbar";
+import { MainNav } from "@/components/ui/main-nav";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 
@@ -226,7 +226,7 @@ export default function GroupPage() {
 
   return (
     <div className="min-h-screen bg-black">
-      <Navbar />
+      <MainNav />
       
       <main className="container mx-auto px-4 pt-24">
         <div className="text-center mb-12">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
-import Navbar from "@/components/ui/navbar";
+import { MainNav } from "@/components/ui/main-nav";
 import { useCredit } from '@/context/CreditContext';
 import { motion } from "framer-motion";
 import Image from 'next/image';
@@ -56,7 +56,7 @@ export default function ProductDetail() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
       </div>
 
-      <Navbar />
+      <MainNav />
       
       <main className="container mx-auto px-4 pt-24 relative">
         <div className="max-w-6xl mx-auto">

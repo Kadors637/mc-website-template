@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navbar from "@/components/ui/navbar";
+import { MainNav } from "@/components/ui/main-nav";
 
 interface Group {
   id: string;
@@ -40,7 +40,7 @@ export default function AdminGroups() {
 
   return (
     <div className="min-h-screen bg-black">
-      <Navbar />
+      <MainNav />
       
       <main className="container mx-auto px-4 pt-24">
         <div className="max-w-4xl mx-auto">

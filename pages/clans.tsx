@@ -1,4 +1,4 @@
-import Navbar from "@/components/ui/navbar";
+import { MainNav } from "@/components/ui/main-nav";
 import { Spotlight } from "@/components/ui/spotlight";
 import { motion } from "framer-motion";
 
@@ -40,7 +40,7 @@ const clans = [
 export default function Clans() {
   return (
     <div className="min-h-screen bg-dark-background text-white">
-      <Navbar />
+      <MainNav />
       
       <main className="container mx-auto px-4">
         <Spotlight className="pt-24 pb-12">

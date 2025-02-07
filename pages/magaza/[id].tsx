@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
-import Navbar from "@/components/ui/navbar";
+import { MainNav } from "@/components/ui/main-nav";
 import Image from 'next/image';
 
 interface Product {
@@ -63,7 +63,7 @@ export default function ProductProfile() {
       {/* Grid Background */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]" />
       
-      <Navbar />
+      <MainNav />
       
       <main className="relative">
         <div className="container mx-auto px-4 pt-24">
