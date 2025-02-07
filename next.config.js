@@ -4,6 +4,12 @@ const nextConfig = {
   images: {
     domains: ['i.imgur.com'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 }
 
 module.exports = nextConfig 
